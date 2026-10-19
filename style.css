@@ -26,3 +26,5 @@ a { color: var(--forest); font-weight: 600; }
 nav.links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
 nav.links a { display: inline-block; padding: 12px 16px; border-radius: 14px; background: var(--surface); border: 1px solid var(--line); text-decoration: none; }
 footer { margin-top: 40px; color: var(--muted); font-size: 13px; }
+html { scrollbar-width: none; }
+::-webkit-scrollbar { display: none; }
